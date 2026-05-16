@@ -1,6 +1,10 @@
+#include <iostream>
+#include "structs.h"
 #include "academy.h"
 
-int main() {
-    runAcademy();
-    return 0;
+int main()
+{
+	setlocale(LC_ALL, "Ukrainian");
+	runAcademy();
+	return 0;
 }
